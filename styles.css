@@ -4,28 +4,35 @@
 header{
     background-color: #1F2937;
     display: flex;
+    margin:0;
 }
 
-header section{
-    justify-content: flex-start;
+.navbar{
+    align-items: flex-start;
 }
 #main-text{
     size:48px;
     color: #F9FAF8;
     font-weight: 900;
 }
+
 #second-text{
     size:18px;
     color: #E5E7EB;
 }
+
 button{
     background-color: #3882f6;
 }
+
 #img{
-    justify-content: flex-end;
     margin-right: 50px;
     margin-left: 20px;
 }
+
+
+
+
 #info {
     display: flex;
     
@@ -41,6 +48,9 @@ figure img{
     
 }
 
+
+
+
 .quote-section{
     background-color: #E5E7EB;
 }
@@ -50,6 +60,9 @@ figure img{
 .quote span{
     margin-top: 10px;
 }
+
+
+
 
 
 footer{
