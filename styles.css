@@ -7,7 +7,7 @@ body{
 header{
     background-color: #1F2937;
     display: flex;
-    margin:0;
+    margin: 0 0 500px 0;
     padding-top: 10px;
     padding: 10 30 600 30;
 }
@@ -58,12 +58,16 @@ figure img{
 
 .quote-section{
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
 }
 .quote{
     font-style: 36px light italic #1F2937;
+    text-align: center;
 }
 .quote span{
     margin-top: 10px;
+    padding: 10px;
 }
 
 
