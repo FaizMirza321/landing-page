@@ -7,9 +7,9 @@ body{
 header{
     background-color: #1F2937;
     display: flex;
-    margin: 0 0 500px 0;
+    margin: 0 0 300px 0;
     padding-top: 10px;
-    padding: 10 30 600 30;
+    padding: 10px 30px 600px 30px;
 }
 
 .navbar{
@@ -40,12 +40,12 @@ button{
 
 #info {
     display: flex;
-    
+    margin: 300px 0;
+    gap:2rem;
+    justify-content: center;
 }
 figure{
-    gap:2rem;
     flex:1;
-    justify-content: center;
 }
 figure img{
     border: #3882f6 2px;
@@ -60,6 +60,7 @@ figure img{
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    margin: 300px 0;
 }
 .quote{
     font-style: 36px light italic #1F2937;
@@ -75,6 +76,7 @@ figure img{
 
 
 footer{
+    margin: 300px 0 0 0;
     text-align: center;
     background-color: #1F2937;
 }
