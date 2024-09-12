@@ -5,6 +5,7 @@ header{
     background-color: #1F2937;
     display: flex;
 }
+
 header section{
     justify-content: flex-start;
 }
@@ -20,7 +21,7 @@ header section{
 button{
     background-color: #3882f6;
 }
-header img{
+#img{
     justify-content: flex-end;
     margin-right: 50px;
     margin-left: 20px;
