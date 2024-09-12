@@ -1,6 +1,30 @@
 *{
     font-family: Roboto;
 }
+header{
+    background-color: #1F2937;
+    display: flex;
+}
+header section{
+    justify-content: flex-start;
+}
+#main-text{
+    size:48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+#second-text{
+    size:18px;
+    color: #E5E7EB;
+}
+button{
+    background-color: #3882f6;
+}
+header img{
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-left: 20px;
+}
 #info {
     display: flex;
     
@@ -14,4 +38,20 @@ figure img{
     border: #3882f6 2px;
     border-radius: 12px;
     
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+}
+.quote{
+    font-style: 36px light italic #1F2937;
+}
+.quote span{
+    margin-top: 10px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #1F2937;
 }
