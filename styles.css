@@ -1,0 +1,17 @@
+*{
+    font-family: Roboto;
+}
+#info {
+    display: flex;
+    
+}
+figure{
+    gap:2rem;
+    flex:1;
+    justify-content: center;
+}
+figure img{
+    border: #3882f6 2px;
+    border-radius: 12px;
+    
+}
