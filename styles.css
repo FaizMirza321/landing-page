@@ -30,18 +30,18 @@ header{
     margin-right: 20px;
 }
 
-li a{
+.header-link{
     text-decoration: none;
     color: 18px #E5E7EB;
 }
-text-image{
-    width:30%;
-    margin: auto;
+
+.text-image{
     display: flex;
     justify-content: space-evenly;
 }
 .text-image section{
-    
+    width: 50%;
+    height: 100%;
 }
 .text-image img{
     width: 50%;
@@ -63,13 +63,6 @@ text-image{
 button{
     background-color: #3882f6;
 }
-
-#img{
-    
-}
-
-
-
 
 #info {
     display: flex;
