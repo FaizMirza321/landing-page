@@ -23,11 +23,13 @@ header{
     margin-left:70%;
     margin-top:0;
     padding:10px;
+    display: inline;
 }
-.nav-links li{
+.nav-links ul li{
     display: inline;
     margin-right: 20px;
 }
+
 li a{
     text-decoration: none;
     color: 18px #E5E7EB;
@@ -35,6 +37,8 @@ li a{
 text-image{
     width:30%;
     margin: auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 .text-image section{
     
