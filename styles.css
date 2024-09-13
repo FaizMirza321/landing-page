@@ -10,15 +10,19 @@ header{
     margin: 0 0 300px 0;
     padding-top: 10px;
     padding: 10px 30px 600px 30px;
+    justify-content: center;
+    row-gap: 30px;
 }
 
-.navbar{
-    align-items: flex-start;
+.nav-links{
+    text-align: end;
+    margin-right: 100px;
 }
 #main-text{
     size:48px;
     color: #F9FAF8;
     font-weight: 900;
+
 }
 
 #second-text{
@@ -31,8 +35,7 @@ button{
 }
 
 #img{
-    margin-right: 50px;
-    margin-left: 20px;
+    
 }
 
 
@@ -66,14 +69,22 @@ figure img{
     font-style: 36px light italic #1F2937;
     text-align: center;
 }
-.quote span{
-    margin-top: 10px;
-    padding: 10px;
+.quote-section span{
+    text-align: right;
 }
 
 
 
+#sign-up{
+    display: flex;
+}
 
+#sign-up section{
+    margin: auto;
+    background-color: #3882f6;
+    width: 40%;
+    padding: 25px 50px;
+}
 
 footer{
     margin: 300px 0 0 0;
