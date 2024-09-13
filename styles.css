@@ -18,18 +18,26 @@ header{
     width:100%;
     margin:0;
 }
-
 .nav-links{
-    margin-right: 100px;
+    margin-right: 10%;
+    margin-left:70%;
+    margin-top:0;
+    padding:10px;
+}
+.nav-links li{
+    display: inline;
+    margin-right: 20px;
+}
+li a{
+    text-decoration: none;
+    color: 18px #E5E7EB;
 }
 text-image{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    width:30%;
+    margin: auto;
 }
 .text-image section{
-    width: 50%;
-    height: 100%;
+    
 }
 .text-image img{
     width: 50%;
