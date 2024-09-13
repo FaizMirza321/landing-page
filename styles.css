@@ -10,23 +10,30 @@ header{
     margin: 0 0 300px 0;
     padding-top: 10px;
     padding: 10px 30px 600px 30px;
-    justify-content: center;
     row-gap: 30px;
+    flex-direction: column;
 }
 
 .navbar{
     width:100%;
+    margin:0;
 }
 
 .nav-links{
-    text-align: end;
     margin-right: 100px;
+}
+text-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .text-image section{
     width: 50%;
+    height: 100%;
 }
 .text-image img{
     width: 50%;
+    height: 100%;
 }
 
 #main-text{
