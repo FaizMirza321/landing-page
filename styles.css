@@ -39,13 +39,9 @@ header{
     display: flex;
     justify-content: space-evenly;
 }
-.text-image section{
-    width: 50%;
-    height: 100%;
-}
-.text-image img{
-    width: 50%;
-    height: 100%;
+#image{
+    width:25%;
+    height: 50%;
 }
 
 #main-text{
@@ -60,8 +56,13 @@ header{
     color: #E5E7EB;
 }
 
-button{
+.button{
     background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    padding: 6px 30px;
+    color: #E5E7EB;
+    font-size: 14px;
 }
 
 #info {
@@ -84,12 +85,15 @@ figure img{
 
 .quote-section{
     background-color: #E5E7EB;
-    display: flex;
+    display: block;
     flex-direction: column;
     margin: 300px 0;
     justify-content: center;
     align-items: center;
     padding: 100px 300px;
+}
+.quote-container{
+    padding:200px;
 }
 .quote{
     font-style: 36px light italic #1F2937;
@@ -110,11 +114,25 @@ figure img{
     margin: auto;
     background-color: #3882f6;
     width: 40%;
-    padding: 25px 50px;
+    padding: 25px 100px;
+    border-radius: 25px;
 }
-
+.sign-up-text{
+    margin-right: 3px;
+}
+.button-border{
+    background-color: #3882f6;
+    border: solid 2px #E5E7EB;
+    padding: 6px 30px;
+    border-radius: 8px;
+    color: #E5E7EB;
+    font-size: 14px;
+    margin-right: 440px;
+    margin-bottom: 40px;
+}
 footer{
     margin: 300px 0 0 0;
     text-align: center;
     background-color: #1F2937;
+    padding: 200px;
 }
