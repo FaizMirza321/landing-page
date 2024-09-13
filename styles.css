@@ -118,7 +118,9 @@ figure img{
     border-radius: 25px;
 }
 .sign-up-text{
-    margin-right: 3px;
+    margin: 0;
+    padding: 2px;
+    display: inline;
 }
 .button-border{
     background-color: #3882f6;
@@ -127,8 +129,9 @@ figure img{
     border-radius: 8px;
     color: #E5E7EB;
     font-size: 14px;
-    margin-right: 440px;
-    margin-bottom: 40px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    display: inline;
 }
 footer{
     margin: 300px 0 0 0;
