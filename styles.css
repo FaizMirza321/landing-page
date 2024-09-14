@@ -9,7 +9,7 @@ header{
     display: flex;
     margin: 0 0 300px 0;
     padding-top: 10px;
-    padding: 10px 30px 600px 30px;
+    padding: 10px 30px 100px 30px;
     row-gap: 30px;
     flex-direction: column;
 }
@@ -42,7 +42,7 @@ header{
 }
 #image{
     width:25%;
-    height: 50%;
+    height:300px;
 }
 
 #main-text{
@@ -67,16 +67,17 @@ header{
 }
 
 #info {
-    display: flex;
+    display: block;
     margin: 300px 0;
-    gap:2rem;
-    justify-content: center;
+    
 }
-figure{
-    flex:1;
+.fig-container{
+    display: flex;
+    justify-content: center;
+    row-gap: 2rem;
 }
 figure img{
-    border: #3882f6 2px;
+    border: solid #3882f6 2px;
     border-radius: 12px;
     
 }
