@@ -25,9 +25,12 @@ header{
     padding:10px;
     display: inline;
 }
-.nav-links ul li{
+.nav-list{
     display: inline;
+    margin:0;
     margin-right: 20px;
+    list-style-type: none;
+    padding: 5px;
 }
 
 .header-link{
@@ -123,7 +126,7 @@ figure img{
     border-radius: 25px;
 }
 .sign-up-header{
-    color:E5E7EB;
+    color:#E5E7EB;
 }
 .sign-up-text{
     margin: 0;
@@ -146,5 +149,6 @@ footer{
     margin: 300px 0 0 0;
     text-align: center;
     background-color: #1F2937;
-    padding: 200px;
+    padding: 30px;
+    color: #F9FAF8;
 }
