@@ -20,9 +20,14 @@ header{
 }
 .nav-links{
     display: inline;
+    margin-left:65%;
 }
 .header-link{
     text-decoration: none;
+    color: #E5E7EB;
+}
+.header-link:visited{
+    color:#E5E7EB;
 }
 .nav-list{
     display: inline;
@@ -30,7 +35,6 @@ header{
     margin-right: 20px;
     list-style-type: none;
     padding: 5px;
-    color: #E5E7EB;
     font-size: 18px;
 }
 
@@ -114,7 +118,7 @@ figure img{
     font-size: 24px; 
     color:#1F2937;
     font-weight: 900;
-    margin-left: 400px;
+    margin-left: 60%;
 }
 
 
